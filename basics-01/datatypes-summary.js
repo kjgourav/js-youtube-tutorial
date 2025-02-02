@@ -10,7 +10,7 @@ const outsideTemp = null
 
 const id = Symbol('123');
 const anotherId = Symbol('123')
-
+// **************************************************
 console.log(id === anotherId);//false
 //both their return type is diff
 
@@ -37,6 +37,10 @@ console.log(obj1); // the x value in obj1 will not change because ...obj1 create
 //store direct value and if try to acces it the copy of the value will be accesed
 //but if we try to change the nested object value thriugh ibj3 it will change because it stores reference and the reference will be copied of the original value
 
+
+    
+//stack (primitive) , heap(non-primitive)
+//stack : memory allocated for a variable is allocated on stack
 
 
 
